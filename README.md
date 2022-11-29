@@ -336,7 +336,7 @@ function Update:Window(text,logo,keybind)
 	Hub.Position = UDim2.new(0, 110, 0, 0)
 	Hub.Size = UDim2.new(0, 81, 0, 27)
 	Hub.Font = Enum.Font.GothamSemibold
-	Hub.Text = "HuB | BF"
+	Hub.Text = "zKuzy"
 	Hub.TextColor3 = Color3.fromRGB(147,112,219)
 	Hub.TextSize = 17.000
 	Hub.TextXAlignment = Enum.TextXAlignment.Left
@@ -2312,7 +2312,7 @@ local Time = Main:Label("Executor Time");spawn(function() getgenv().Time = true;
         StopTween(_G.AutoFarm)
     end)
 
-        Main:Toggle("Auto Kaitan",false,function(value)
+        Main:Toggle("ออโต้ไก่ตัน",false,function(value)
        _G.AutoFarm = value
        _G.SelectWeapon = "Combat"
        _G.Auto_Melee = value
@@ -2361,7 +2361,7 @@ local Time = Main:Label("Executor Time");spawn(function() getgenv().Time = true;
         "Bignews"
     }
     
-    Main:Button("Remove Attack",function(value)
+    Main:Button("ลบ Attack",function(value)
          _G.RemoveAnimation = value
 				end)
 
@@ -2400,7 +2400,7 @@ local Time = Main:Label("Executor Time");spawn(function() getgenv().Time = true;
 		end)
 
     
-    Main:Toggle("FastAttack",true,function()
+    Main:Toggle("ตีไว300%",true,function()
     
     (getgenv()).Config = {
  ["FastAttack"] = true,
