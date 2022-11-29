@@ -171,7 +171,7 @@ local function loading()
 	TextLabel_2.Position = UDim2.new(0.0299999993, 0, 0, 0)
 	TextLabel_2.Size = UDim2.new(0, 61, 0, 30)
 	TextLabel_2.Font = Enum.Font.GothamSemibold
-	TextLabel_2.Text = "  Miracle"
+	TextLabel_2.Text = "  YouTube:"
 	TextLabel_2.TextColor3 = Color3.fromRGB(147,112,219)
 	TextLabel_2.TextSize = 17.000
 
@@ -181,7 +181,7 @@ local function loading()
 	TextLabel_3.Position = UDim2.new(0.151999995, 0, 0, 0)
 	TextLabel_3.Size = UDim2.new(0, 61, 0, 30)
 	TextLabel_3.Font = Enum.Font.GothamSemibold
-	TextLabel_3.Text = "   HUB"
+	TextLabel_3.Text = "   zKuzy"
 	TextLabel_3.TextColor3 = Color3.fromRGB(147,112,219)
 	TextLabel_3.TextSize = 17.000
 	TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
@@ -324,12 +324,12 @@ function Update:Window(text,logo,keybind)
 	Name.Position = UDim2.new(0.0609756112, 0, 0, 0)
 	Name.Size = UDim2.new(0, 61, 0, 27)
 	Name.Font = Enum.Font.GothamSemibold
-	Name.Text = "Miracle"
+	Name.Text = "YouTube"
 	Name.TextColor3 = Color3.fromRGB(147,112,219)
 	Name.TextSize = 17.000
 
 	local Hub = Instance.new("TextLabel")
-	Hub.Name = "Hub"
+	Hub.Name = "zKuzy"
 	Hub.Parent = Top
 	Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Hub.BackgroundTransparency = 1.000
